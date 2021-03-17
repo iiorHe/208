@@ -39,6 +39,9 @@ public class lab01{
             System.out.println("Go again? 1 for YES, 0 for NO: ");
             Scanner LoopInput = new Scanner(System.in);
             ploop = LoopInput.nextInt();
+            PosInput.close();
+            NumInput.close();
+            LoopInput.close();
         }
         return temparr;
 
